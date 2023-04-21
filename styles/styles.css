@@ -1,0 +1,187 @@
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    
+  }
+  
+  .flex-item {
+    background-color: #671b1b;
+    padding: 50px 55px;
+    font-size: 30px;
+    margin-bottom: 30px;
+    margin-top: 50px;
+  }
+    .flex-item {
+  color: white;
+  padding: 15px 32px;
+    }
+  
+   
+          body {
+              margin: 0;
+          }
+        
+          img {
+              max-width: 100%;
+              height: auto;
+          }
+          
+          .header-image {
+              display: block;
+              margin-left: auto;
+              margin-right: auto;
+              width: 100%;
+              height: auto;
+              margin-bottom: 90px;
+  
+              
+          }
+          .button {
+              background-color: #ffffff;
+              padding: 1px;
+              margin-bottom: 20px;
+              padding: 15px 32px;
+  
+          }
+          .btn {
+              background-color:#671b1b;
+          border: none;
+          color: rgb(255, 255, 255);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          font-size: xx-large;
+          }
+          .temp {
+              text-align: right;
+          }
+          
+          .michelin {
+              border-radius: 0;
+              display: block;
+              margin-right: auto;
+          }
+  
+          .about {
+          display: flex;
+          flex-wrap: nowrap;
+          background-color: #ffffff;
+          justify-content: center;
+          position: relative;
+          align-items: center;
+          max-width: 600px;
+          margin: 0 auto;
+          }
+  
+        .michelin-image {
+          flex-basis: 50%;
+          background-color: #ffffff;
+          padding: 50px;
+          font-size: 30px;
+      
+          }
+      .info {
+          text-align: center;
+          flex-basis: 50%;
+          margin-top: 10%;
+          font-size: x-large;
+      }
+  
+      .reservation {
+          background-color:rgb(103, 27, 27);
+          border: none;
+          color: rgb(255, 255, 255);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          cursor: pointer;
+  
+          font-size: xx-large;
+      }
+      .text-center {
+          text-align: center;
+  
+      }
+      .press {
+          background-color:rgb(103, 27, 27);
+          border: none;
+          color: rgb(255, 255, 255);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          margin-top: 5%;
+          font-size: xx-large;  
+      }
+      .press-info {
+          text-align: center;
+          padding: 15px;
+          font-size: large;
+      }
+      .flex-container {
+          flex-wrap: wrap;
+          display: flex;
+          justify-content: space-between;
+          padding: 10px 15px;
+          align-items: center;
+      }
+      .overflow-hidden {
+          overflow-x: hidden;
+      }
+  
+      /* Animations */
+      .fade--in.active {
+          animation-name: fade-in;
+          animation-duration: 5s;
+          animation-fill-mode: forwards;
+      }
+      @keyframes fade-in {
+          0% {
+              transform: translate(200px);
+          }
+          100% {
+              transform: translate(0);
+          }
+      }
+      
+      .grid-container {
+        display: grid;
+        grid: 150px / auto auto auto;
+        grid-gap: 10px;
+        background-color: #ffffff;
+        padding: 10px;
+        height: 75%;
+      }
+      
+      .grid-container > div {
+        background-color: rgba(255, 255, 255, 0.8);
+        text-align: center;
+        padding: 20px 0;
+        font-size: 30px;
+        height: 75%;
+      }
+      .footer {
+        background-color:rgb(103, 27, 27);
+          border: none;
+          color: rgb(255, 255, 255);
+          padding: 15px 32px;
+          text-align: center;
+          text-decoration: none;
+          display: block;
+          font-size: 16px;
+          margin: 4px 2px;
+          cursor: pointer;
+          margin-top: 35%;
+          font-size: xx-large;
+      }
+      
